@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "speech_experiment1"
+version = "0.1.0"
+description = "Experiment-1 w.r.t emotive speech and text"
+authors = ["Manu <grajmanu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+SpeechRecognition = "^3.8.1"
+PyAudio = "^0.2.11"
+text2emotion = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
